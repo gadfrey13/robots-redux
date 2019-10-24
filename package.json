@@ -1,7 +1,7 @@
 {
   "name": "robofriends",
   "version": "0.1.0",
-  "homepage": "http://gadfrey13.github.io/robots",
+  "homepage": "https://gadfrey13.github.io/robots-redux/",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.1.1",
