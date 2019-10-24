@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/robots/static/css/main.5abcb4fe.chunk.css",
-    "main.js": "/robots/static/js/main.511ded83.chunk.js",
-    "main.js.map": "/robots/static/js/main.511ded83.chunk.js.map",
-    "runtime~main.js": "/robots/static/js/runtime~main.f458d7dd.js",
-    "runtime~main.js.map": "/robots/static/js/runtime~main.f458d7dd.js.map",
-    "static/css/2.31dafeb2.chunk.css": "/robots/static/css/2.31dafeb2.chunk.css",
-    "static/js/2.337ca57c.chunk.js": "/robots/static/js/2.337ca57c.chunk.js",
-    "static/js/2.337ca57c.chunk.js.map": "/robots/static/js/2.337ca57c.chunk.js.map",
-    "index.html": "/robots/index.html",
-    "precache-manifest.5d9a98934592e6d2d9e0d2faf3324c89.js": "/robots/precache-manifest.5d9a98934592e6d2d9e0d2faf3324c89.js",
-    "service-worker.js": "/robots/service-worker.js",
-    "static/css/2.31dafeb2.chunk.css.map": "/robots/static/css/2.31dafeb2.chunk.css.map",
-    "static/css/main.5abcb4fe.chunk.css.map": "/robots/static/css/main.5abcb4fe.chunk.css.map",
-    "static/media/App.css": "/robots/static/media/SEGA.12a3db8b.woff"
+    "main.css": "/robots-redux/static/css/main.0a374d8b.chunk.css",
+    "main.js": "/robots-redux/static/js/main.112dddf9.chunk.js",
+    "main.js.map": "/robots-redux/static/js/main.112dddf9.chunk.js.map",
+    "runtime~main.js": "/robots-redux/static/js/runtime~main.688ee32c.js",
+    "runtime~main.js.map": "/robots-redux/static/js/runtime~main.688ee32c.js.map",
+    "static/css/2.31dafeb2.chunk.css": "/robots-redux/static/css/2.31dafeb2.chunk.css",
+    "static/js/2.337ca57c.chunk.js": "/robots-redux/static/js/2.337ca57c.chunk.js",
+    "static/js/2.337ca57c.chunk.js.map": "/robots-redux/static/js/2.337ca57c.chunk.js.map",
+    "index.html": "/robots-redux/index.html",
+    "precache-manifest.caf9bf1dc6c0bf4af108aa908106da04.js": "/robots-redux/precache-manifest.caf9bf1dc6c0bf4af108aa908106da04.js",
+    "service-worker.js": "/robots-redux/service-worker.js",
+    "static/css/2.31dafeb2.chunk.css.map": "/robots-redux/static/css/2.31dafeb2.chunk.css.map",
+    "static/css/main.0a374d8b.chunk.css.map": "/robots-redux/static/css/main.0a374d8b.chunk.css.map",
+    "static/media/App.css": "/robots-redux/static/media/SEGA.12a3db8b.woff"
   }
 }
