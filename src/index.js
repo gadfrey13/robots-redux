@@ -1,12 +1,27 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom';//Allows you to connect to doms of the hmtl
+import {Provider, connect} from 'react-redux';
+import {createStore, applyMiddleware, compose, combineReducers} from 'redux';
+import {createLogger} from 'redux-logger';
+import thunkMiddleware from 'redux-thunk';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import 'tachyons';
+import registerServiceWorker from './serviceWorker';
+import App from './containers/App';
+import {searchRobots, requestRobots} from './reducers';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const logger = createLogger();
+const enhancers = compose(
+    //this is ordered so becareful of the order
+    applyMiddleware(thunkMiddleware,logger),
+    window.devToolsExtension ? window.devToolsExtension() : f => f
+)
+const rootReducer = combineReducers({searchRobots,requestRobots});
+const store = createStore(rootReducer,enhancers);
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(
+    //Provider component allows you to pass down the store component throughtout the app 
+    <Provider store={store}>
+        <App/>
+    </Provider>
+    , document.getElementById('root'));
